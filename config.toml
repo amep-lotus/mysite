@@ -1,0 +1,145 @@
+#baseurl = "http://workers-safety.ca.s3-website-us-east-1.amazonaws.com/"
+title = "My Blog Site"
+theme = "hugo-universal-theme"
+languageCode = "en-us"
+# Enable comments by entering your Disqus shortname
+disqusShortname = ""
+# Enable Google Analytics by entering your tracking code
+googleAnalytics = ""
+
+# Define the number of posts per page
+paginate = 10
+
+[params]
+    viewMorePostLink     = "/communications/"
+    author = "Workers"
+    Title = "My Blog Site"
+
+    # Since this template is static, the contact form uses www.formspree.io as a
+    # proxy. The form makes a POST request to their servers to send the actual
+    # email. Visitors can send up to a 1000 emails each month for free.
+    #
+    # What you need to do for the setup?
+    #
+    # - set your email address under 'email' below
+    # - upload the generated site to your server
+    # - send a dummy email yourself to confirm your account
+    # - click the confirm link in the email from www.formspree.io
+    # - you're done. Happy mailing!
+    #
+    # Enable the contact form by entering your Formspree.io email
+    email = "whslc@lao.on.ca"
+
+    about_us = "<p>Workers' Health and Safety Legal Clinic</p>"
+    about_description = "<p>Advocating for workers' rights</p>"
+    copyright = "Copyright (c) 2016, WHSLC; all rights reserved."
+    date_format = "2006-01-02"
+    logo = "img/whslc4Clogo.jpg"
+    address = """<p><strong>Workers' Health and Safety Legal Clinic</strong>
+        <br>Monday - Friday
+        <br>9am - 5pm
+        <br>
+        <br>180 Dundas St. West
+        <br>Suite 2000, Box 4
+        <br>Toronto, ON
+        <br>M5G 1Z8
+        <br>
+        <strong>Canada</strong>
+      </p>
+      """
+
+[Permalinks]
+    blog = "/communications/:year/:month/:day/:filename/"
+
+[[params.menu]]
+    name = "Home"
+    url  = "/"
+    weight = 1
+    
+[[params.menu]]
+    name = "Legal Services"
+    url  = "/features/legal-services/"
+    weight = 2
+
+[[params.menu]]
+    name = "Who we serve"
+    url  = "/menu/who-we-serve/"
+    weight = 3
+
+[[params.menu]]
+    name = "Law reform"
+    url  = "/features/law-reform/"
+    weight = 4 
+    
+[[params.menu]]
+    name = "Links"
+    url  = "/menu/links/"
+    weight = 5   
+     
+[[params.menu]]
+    name = "Communications"
+    url  = "/communications/"
+    weight = 6
+    
+[[params.menu]]
+    name = "Membership"
+    url  = "/menu/member/"
+    weight = 7
+    
+[[params.menu]]
+    name = "About Us"
+    url  = "/menu/about-us/"
+    weight = 8
+   
+[[params.menu]]
+    name = "Contact Us"
+    url  = "/menu/contact/"
+    weight = 9
+
+
+
+# Enable and disable widgets for the right sidebar
+[params.widgets]
+    categories = true
+    tags = true
+    search = true
+
+[params.carousel]
+    enable = true
+    # All carousel items are defined in their own files. 
+    # /data/carousel 
+    # /static/img/carousel
+   
+[params.features]
+    enable = true
+    # All features are defined in their own files.
+    # /data/features
+
+[params.testimonials]
+    enable = false
+    # All testimonials are defined in their own files.
+    # /data/testimonials
+    title = "Testimonials"
+    subtitle = "We have worked with many clients and we always like to hear they come out from the cooperation happy and satisfied. Have a look what our clients said about us."
+
+[params.see_more]
+    enable = false
+    icon = "fa fa-file-code-o"
+    title = "Do you want to see more?"
+    subtitle = "We have prepared for you more than 40 different HTML pages, including 5 variations of homepage."
+    link_url = "http://workers-safety.ca"
+    link_text = "Check other homepages"
+
+[params.clients]
+    enable = true
+    # All clients are defined in their own files. 
+    # /data/clients
+    title = "Resources"
+    subtitle = "We are here to help"
+    url = "/menu/links/"
+    link_text = "Find more information"
+
+[params.recent_posts]
+    enable = true
+    title = "Communications"
+    subtitle = "Here you will find our latest newsletters, public activities and more."

@@ -1,0 +1,36 @@
+---
+label: features
+hide_body: false
+is_partial: false
+fields:
+- name: title
+  default: ''
+  label: Title
+  hidden: false
+  type: text
+- name: date
+  default: ''
+  label: Date
+  hidden: false
+  type: datetime
+- name: banner
+  default: ''
+  label: Banner
+  hidden: false
+  type: file
+- name: categories
+  default:
+  - x
+  - y
+  label: Categories
+  hidden: false
+  type: tag_list
+- name: tags
+  default:
+  - x
+  - y
+  label: Tags
+  hidden: false
+  type: tag_list
+pages:
+- content/features/newsletters.md
