@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Menus on My Blog Site</title>
+    <link>/menu/</link>
+    <description>Recent content in Menus on My Blog Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 09 Jun 2017 17:38:03 +0000</lastBuildDate>
+    
+	<atom:link href="/menu/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Staff</title>
+      <link>/menu/aboutus/staff/</link>
+      <pubDate>Fri, 09 Jun 2017 17:38:03 +0000</pubDate>
+      
+      <guid>/menu/aboutus/staff/</guid>
+      <description>The Workers&amp;rsquo; Health and Safety Legal Clinic (WHSLC) employs four lawyers and two community legal workers. We offer articling opportunities when funding is available, and law student volunteer positions are possible where oversight is available.
+Go back </description>
+    </item>
+    
+    <item>
+      <title>Contact Us</title>
+      <link>/menu/contact/</link>
+      <pubDate>Fri, 21 Apr 2017 19:56:30 +0000</pubDate>
+      
+      <guid>/menu/contact/</guid>
+      <description>The Workers’ Health and Safety Legal Clinic provides free legal services to non-unionized workers in the province of Ontario who are experiencing health and safety and/or employment related legal issues in the workplace.
+Feel free to contact us by phone or email for information, to receive our services, to become a member, to join the Board of Directors, or to inquire about volunteer opportunities.   Telephone: 416-971-8832 (Local) or 1-877-832-6090 (Toll free)   Fax: 416-971-8834   Email: whslc@lao.</description>
+    </item>
+    
+    <item>
+      <title>Clinic History</title>
+      <link>/menu/aboutus/clinic-history/</link>
+      <pubDate>Wed, 12 Oct 2016 20:33:00 +0000</pubDate>
+      
+      <guid>/menu/aboutus/clinic-history/</guid>
+      <description>The Toronto Workers’ Health and Safety Legal Clinic began operations in December 1988. The Clinic was founded by a group of health and safety advocates who originally were part of the Toronto Occupational Health Resource Centre (TOHRC). TOHRC was set up in the 1970s to assist non-unionized workers in dealing with occupational health and safety hazards.
+When the Occupational Health and Safety Act came into being in 1978, TOHRC recognized that non-union workers needed legal help to assert their health and safety rights.</description>
+    </item>
+    
+    <item>
+      <title>Links</title>
+      <link>/menu/links/</link>
+      <pubDate>Sat, 24 Sep 2016 16:16:00 +0000</pubDate>
+      
+      <guid>/menu/links/</guid>
+      <description>In this section, you will find information on a variety of issues that relate to workers&amp;rsquo; employment standards and health and safety rights. Scroll down and click on the highlighted text to access the links.
+ LEGAL ASSISTANCE RESOURCES Legal Aid Ontario (LAO) – provides free legal services to low-income people in Ontario. LAO seeks to ensure that healthy communities include legal services and access to justice.
+  Tel (416) 979-1446 / Toll free 1-800-668-8258</description>
+    </item>
+    
+    <item>
+      <title>About Us</title>
+      <link>/menu/about-us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/menu/about-us/</guid>
+      <description>Who We Are The Workers’ Health and Safety Legal Clinic (WHSLC) is a community legal aid clinic that focuses on workers’ rights with an emphasis on workplace health and safety issues and employment law issues.
+Our lawyers provide free information, legal advice, referrals and representation to low-income workers who face health and safety problems at work and/or other violations of their rights. We act for workers to promote health and safety in the workplace, and in particular, for those who are unlawfully punished or terminated for raising health and safety concerns and/or employment related concerns.</description>
+    </item>
+    
+    <item>
+      <title>Board of Directors</title>
+      <link>/menu/aboutus/board-of-directors/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/menu/aboutus/board-of-directors/</guid>
+      <description>The Workers&amp;rsquo; Health and Safety Legal Clinic (WHSLC) is governed by a volunteer Board of Directors elected by our membership. Our Board members come from a variety of backgrounds and share a common interest in employment-related and health and safety issues from the worker perspective. Currently, many of our Board members have had experience with health and safety issues at work or were injured in the workplace.
+Being a volunteer Board member is an opportunity to network, to meet others who share your commitment, and to enrich your own skills, knowledge and experience.</description>
+    </item>
+    
+    <item>
+      <title>Membership</title>
+      <link>/menu/member/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/menu/member/</guid>
+      <description>Become a Member! The WHSLC is supported by a diverse membership. Our primary goal is to provide free legal services to non-unionized workers experiencing employment issues and/or health and safety legal issues in Ontario. To help us ensure that our services are relevant, we need the participation of people experiencing workplace injustices in Ontario, as well as those who are serving vulnerable workers who experience unfair workplace practices.
+Please consider becoming a member and sharing your voice in the fight for improved health and safety as well as employment standards in Ontario’s workplaces.</description>
+    </item>
+    
+    <item>
+      <title>Who We Serve</title>
+      <link>/menu/who-we-serve/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/menu/who-we-serve/</guid>
+      <description>Financial Eligibility Our services are available, free of charge, to low-income non-unionized workers who need assistance with legal matters that fall within the Clinic’s area of practice. For more information on our areas of practice, visit the Legal Services section on our website. We use Legal Aid Ontario’s financial eligibility criteria to determine if you are eligible for services from our Clinic. This eligibility is based on household size and income.</description>
+    </item>
+    
+  </channel>
+</rss>

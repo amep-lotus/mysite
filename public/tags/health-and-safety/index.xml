@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>health and safety on My Blog Site</title>
+    <link>/tags/health-and-safety/</link>
+    <description>Recent content in health and safety on My Blog Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 11 Dec 2017 10:50:24 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/health-and-safety/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Workers&#39; Guide</title>
+      <link>/communications/workers-guide/</link>
+      <pubDate>Mon, 11 Dec 2017 10:50:24 +0000</pubDate>
+      
+      <guid>/communications/workers-guide/</guid>
+      <description>Protect your health and safety! As a worker in Ontario, you have basic health and safety rights. It is against the law for your boss to fire you or punish you (or threaten to fire or punish you) for using your health and safety rights.
+ Click below to learn more:
+WORKERS’ GUIDE TO OCCUPATIONAL HEALTH AND SAFETY.  For more information on our services or if you have have been fired or punished for speaking out about your rights, contact us.</description>
+    </item>
+    
+  </channel>
+</rss>

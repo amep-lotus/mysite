@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>report on My Blog Site</title>
+    <link>/categories/report/</link>
+    <description>Recent content in report on My Blog Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 30 Oct 2017 08:04:01 -0400</lastBuildDate>
+    
+	<atom:link href="/categories/report/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Annual Report 2017</title>
+      <link>/communications/annual-report-2017/</link>
+      <pubDate>Mon, 30 Oct 2017 08:04:01 -0400</pubDate>
+      
+      <guid>/communications/annual-report-2017/</guid>
+      <description>The Workers&amp;rsquo; Health and Safety Legal Clinic’s Annual Report outlines the activities and initiatives that were made in pursuit of advocating for workers’ rights. It further details the Clinic’s efforts to continue providing consistently high quality services in a cost-effective, efficient and innovative manner. The Clinic provides such legal services as advice, representation, public legal education and law reform concerning occupational health and safety and related workplace laws.
+ The following PDF documents are available for review -</description>
+    </item>
+    
+    <item>
+      <title>Annual Report 2016</title>
+      <link>/communications/annual-report-2016/</link>
+      <pubDate>Mon, 21 Nov 2016 12:30:37 -0500</pubDate>
+      
+      <guid>/communications/annual-report-2016/</guid>
+      <description>The Workers&amp;rsquo; Health and Safety Legal Clinic’s Annual Report outlines the activities and initiatives that were made in pursuit of advocating for workers’ rights. It further details the Clinic’s efforts to continue providing consistently high quality services in a cost-effective, efficient and innovative manner. The Clinic provides such legal services as advice, representation, public legal education and law reform concerning occupational health and safety and related workplace laws.
+ The following PDF documents are available for review -</description>
+    </item>
+    
+  </channel>
+</rss>
