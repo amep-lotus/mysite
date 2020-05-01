@@ -2,7 +2,6 @@
 banner = "img/banners/Untitled.png"
 categories = ["x", "y"]
 date = 2020-04-30T04:00:00Z
-draft = true
 tags = ["x", "y"]
 title = "This is just to test the static website"
 
