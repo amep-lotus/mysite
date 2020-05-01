@@ -24,9 +24,10 @@ jobs:
       - run:
           name: "Run Hugo"
           command: HUGO_ENV=production hugo -v -d ~/mysite/public
-      - run:
-          name: "Test Website"
-          command: htmlproofer ~/mysite/public/ --allow-hash-href --check-html --empty-alt-ignore --disable-external
+      #      
+      #- run:
+      #    name: "Test Website"
+      #    command: htmlproofer ~/mysite/public/ --allow-hash-href --check-html --empty-alt-ignore --disable-external
 
       # Deploy
       # aws s3 sync public/ s3://pemazomkyi.com/ --delete   
