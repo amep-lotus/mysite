@@ -2,7 +2,6 @@
 banner = "img/banners/waterfall.jpg"
 categories = ["x", "y"]
 date = 2020-04-14T04:00:00Z
-draft = true
 tags = ["x", "y"]
 title = "Welcome to My Site Blog"
 
