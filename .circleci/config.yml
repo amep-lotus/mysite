@@ -8,7 +8,7 @@ jobs:
         HUGO_BUILD_DIR: ~/mysite/public
     steps:
       
-      # build with Hugo      
+      #build with Hugo      
       - run:
           name: "Run Hugo"
           command: HUGO_ENV=production hugo -v -d ~/mysite/public
@@ -22,3 +22,13 @@ jobs:
       - run: cat $(pwd)/public/index.html 
       - run: docker stop hugotest 
       - run: mv ./public/ ./old-public 
+
+# aws s3 sync public/ s3://pemazomkyi.com/ --delete  
+      - deploy:
+          name: deploy to AWS
+          command: |
+              if [[ "${CIRCLE_BRANCH}" == "master" ]]; then
+                  echo "push to s3"         
+                else
+                  echo "Not master branch, dry run only"
+              fi
