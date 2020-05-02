@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Categories on My Blog Site</title>
+    <link>https://pemazomkyi.com/categories/</link>
+    <description>Recent content in Categories on My Blog Site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 29 Nov 2018 15:00:22 -0500</lastBuildDate>
+    
+	<atom:link href="https://pemazomkyi.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>event</title>
+      <link>https://pemazomkyi.com/categories/event/</link>
+      <pubDate>Thu, 29 Nov 2018 15:00:22 -0500</pubDate>
+      
+      <guid>https://pemazomkyi.com/categories/event/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>injured workers</title>
+      <link>https://pemazomkyi.com/categories/injured-workers/</link>
+      <pubDate>Thu, 29 Nov 2018 15:00:22 -0500</pubDate>
+      
+      <guid>https://pemazomkyi.com/categories/injured-workers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hazards</title>
+      <link>https://pemazomkyi.com/categories/hazards/</link>
+      <pubDate>Mon, 01 Oct 2018 10:28:05 -0400</pubDate>
+      
+      <guid>https://pemazomkyi.com/categories/hazards/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>undocumented workers</title>
+      <link>https://pemazomkyi.com/categories/undocumented-workers/</link>
+      <pubDate>Mon, 01 Oct 2018 10:28:05 -0400</pubDate>
+      
+      <guid>https://pemazomkyi.com/categories/undocumented-workers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>events</title>
+      <link>https://pemazomkyi.com/categories/events/</link>
+      <pubDate>Wed, 26 Sep 2018 16:52:42 -0400</pubDate>
+      
+      <guid>https://pemazomkyi.com/categories/events/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>publications</title>
+      <link>https://pemazomkyi.com/categories/publications/</link>
+      <pubDate>Mon, 11 Dec 2017 10:50:24 +0000</pubDate>
+      
+      <guid>https://pemazomkyi.com/categories/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>report</title>
+      <link>https://pemazomkyi.com/categories/report/</link>
+      <pubDate>Mon, 30 Oct 2017 08:04:01 -0400</pubDate>
+      
+      <guid>https://pemazomkyi.com/categories/report/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Newsletter</title>
+      <link>https://pemazomkyi.com/categories/newsletter/</link>
+      <pubDate>Mon, 21 Aug 2017 00:00:00 -0400</pubDate>
+      
+      <guid>https://pemazomkyi.com/categories/newsletter/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
