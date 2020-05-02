@@ -7,6 +7,10 @@ jobs:
       environment: 
           HUGO_BUILD_DIR: ~/mysite/public
       steps:
+          # install git
+        - run: sudo apt-get update && sudo apt-get install git
+        - checkout
+        
         - run:
             name: "Install AWS CLI( first install pip, the python package manager)"
             command: sudo apt-get install awscli
