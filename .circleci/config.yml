@@ -15,7 +15,7 @@ jobs:
             name: "Install AWS CLI( first install pip, the python package manager)"
             command: sudo apt-get install awscli
 
-        # build with Hugo      
+        # build with Hugo Server     
         - run:
             name: "Run Hugo"
             command: HUGO_ENV=production hugo -v -d ~/mysite/public
