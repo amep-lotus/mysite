@@ -15,23 +15,19 @@ jobs:
             name: "Install AWS CLI( first install pip, the python package manager)"
             command: sudo apt-get install awscli
 
-        # build with Hugo      
+        # build with Hugo Server     
         - run:
             name: "Run Hugo"
             command: HUGO_ENV=production hugo -v -d ~/mysite/public
         
-        #validate html
-        - run:
-            name: "Test Website"
-            command: htmlproofer ~/mysite/public/ --allow-hash-href --check-html --empty-alt-ignore --disable-external
-
+       
         # Deploy
   
         - deploy:
             name: Deploy to AWS s3
             command: |
                 if [[ "${CIRCLE_BRANCH}" == "master" ]]; then
-                    # aws s3 sync public/ s3://pemazomkyi.com/ --delete           
+                     aws s3 sync public/ s3://pemazomkyi.com/ --delete           
                   else
                     echo "Not master branch, dry run only"
                 fi
