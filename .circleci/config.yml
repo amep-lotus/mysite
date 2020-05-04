@@ -26,7 +26,7 @@ jobs:
         - deploy:
             name: deploy to AWS
             command: |
-                if [[ "${CIRCLE_BRANCH}" == "firstbranch" ]]; then
+                if [[ "${CIRCLE_BRANCH}" == "master" ]]; then
                      aws s3 sync public/ s3://pemazomkyi.com/ --delete           
                   else
                     echo "Not master branch, dry run only"
@@ -39,4 +39,4 @@ workflows:
       - build:
           filters:
             branches:
-              only: firstbranch
+              only: master
