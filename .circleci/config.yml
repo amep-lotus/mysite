@@ -34,7 +34,7 @@ jobs:
                     echo "Not master branch, dry run only"
                 fi
                 
-        - deployment: 
+        - deploy: 
             name: deploy to staging
             command: |
                 if [[ "${CIRCLE_BRANCH}" == "test-1"]]; then
@@ -46,14 +46,6 @@ jobs:
 workflows:
   version: 2
   staging:
-    jobs:
-      - build:
-          filters:
-            branches:
-              only: test-1
-              
-
-  production:
     jobs:
       - build:
           filters:
