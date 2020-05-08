@@ -29,7 +29,8 @@ jobs:
             name: deploy to Production
             command: |
                 if [[ "${CIRCLE_BRANCH}" == "master" ]]; then
-                    # aws s3 sync public/ s3://pemazomkyi.com/ --delete           
+                    # aws s3 rm s3://workers-safety.ca/ --recursive
+                    # aws s3 sync public/ s3:///workers-safety.ca/ 
                   else
                     echo "Not master branch, dry run only"
                 fi
@@ -38,7 +39,8 @@ jobs:
             name: deploy to staging
             command: |
                 if [[ "${CIRCLE_BRANCH}" == "test-1"]]; then
-                    # aws s3 sync public/ s3://stage.pemazomkyi.com/ --delete           
+                    # aws s3 rm s3://workers-safety.ca/ --recursive
+                    # aws s3 sync public/ s3://stage./workers-safety.ca/           
                   else
                     echo "Not master branch, dry run only"
                 fi
@@ -50,4 +52,6 @@ workflows:
       - build:
           filters:
             branches:
-              only: master
+              only: 
+                - master
+                - test-1
